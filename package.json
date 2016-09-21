@@ -1,0 +1,29 @@
+{
+  "name": "wuziqi",
+  "version": "1.0.0",
+  "description": "canvas show",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --inline --hot",
+    "build": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wysiwyg826/canvas_wuziqi.git"
+  },
+  "keywords": [
+    "canvas"
+  ],
+  "author": "wysiwyg826",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wysiwyg826/canvas_wuziqi/issues"
+  },
+  "homepage": "https://github.com/wysiwyg826/canvas_wuziqi#readme",
+  "devDependencies": {
+    "css-loader": "^0.25.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.1"
+  }
+}
