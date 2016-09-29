@@ -1,4 +1,4 @@
-
+var img = require('../res/bg.jpg');
 
 /******************* AI ********************/
 //赢法数组
@@ -72,11 +72,12 @@ var over = false;
 context.strokeStyle = "#BFBFBF";
 
 var bgImage = new Image();
-bgImage.src = "../res/bg.jpg";
+bgImage.src = img;
 bgImage.onload = function () {
   context.drawImage(bgImage, 0, 0, 450, 450);
   drawChessBoard();
 }
+
 
 // 棋盘坐标
 
