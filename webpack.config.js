@@ -18,6 +18,9 @@ module.exports = {
         }, {
             test: /\.css$/, // a regex for matching all files that end in `.vue`
             loader: 'style!css' // loader to use for matched files
+        }, {
+            test: /\.(gif|jpg|png|woff|woff2|svg|eot|ttf)\??.*$/,
+            loader: 'url-loader'
         }]
     }
 }
