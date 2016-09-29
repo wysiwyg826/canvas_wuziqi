@@ -59,7 +59,7 @@ for (var i = 0; i < 11; i++) {
 }
 
 for (var i = 0; i < count; i++) {
-  myWin[i] = 0;
+  myWin[i] = 0; 
   computerWin[i] = 0;
 }
 
